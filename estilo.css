@@ -4,6 +4,19 @@
 *@version: 0.1
 */
 
+/* =========================== layout ===========================*/
+html,body, .capa{
+    height: 100%;
+}
+body{
+    border: solid 1px red;
+    background: url('imagens/capa.png'),
+                url('imagens/ruido.png'),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*-- Barra de Navegação --*/
 .img-logo{
     height: 40px;
@@ -37,4 +50,25 @@ nav.navbar-transparente{
 
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #9bf0e1;
+}
+
+/*-- Imagem de Capa --*/
+.capa{
+    border: 1px solid red;
+    display: table;
+    width: 100%;
+}
+
+.texto-capa{
+    text-align: center;
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+}
+/* =========================== Tipografia ===========================*/
+h1{
+    font-size: 100px;
+    font-weight: 900px;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px; 
 }
