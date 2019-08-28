@@ -14,6 +14,7 @@ body{
                 linear-gradient(50deg,#ff4169,#7c26f8);
     background-attachment: fixed; 
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden; 
 }
 
 /*-- Barra de Navegação --*/
@@ -105,6 +106,20 @@ nav.navbar-transparente{
     padding: 10px 0px;
 }
 
+/*-- Recursos --*/
+
+#recursos{
+    padding: 20px 0px;
+    color: #fff;
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 80px;
+}
+
 /* =========================== Tipografia ===========================*/
 h1{
     font-size: 100px;
@@ -127,4 +142,8 @@ h3{
 
 #servicos h2, #servicos h3{
     color: #7c26f8;
+}
+
+#recursos h3{
+    color: #9bf0e1;
 }
