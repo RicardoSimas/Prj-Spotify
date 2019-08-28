@@ -9,7 +9,6 @@ html,body, .capa{
     height: 100%;
 }
 body{
-    border: solid 1px red;
     background: url('imagens/capa.png'),
                 url('imagens/ruido.png'),
                 linear-gradient(50deg,#ff4169,#7c26f8);
@@ -54,7 +53,6 @@ nav.navbar-transparente{
 
 /*-- Imagem de Capa --*/
 .capa{
-    border: 1px solid red;
     display: table;
     width: 100%;
 }
@@ -64,6 +62,36 @@ nav.navbar-transparente{
     color: #fff;
     display: table-cell;
     vertical-align: middle;
+}
+
+/*-- Botões --*/
+
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.5s, color 0.4s;
+}
+
+.btn-roxo{
+    background-color: #7c26f8;
+}
+.btn-roxo:hover{
+    background-color: #6207e3;
+    color: #fff;
+}
+
+.btn-branco{
+    border: 2px solid white;
+}
+
+.btn-branco:hover{
+    background-color: #fff;
+    color: #000;
 }
 /* =========================== Tipografia ===========================*/
 h1{
