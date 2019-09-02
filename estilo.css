@@ -133,6 +133,8 @@ footer{
     float: right;
 }
 
+
+
 /* =========================== Tipografia ===========================*/
 h1{
     font-size: 100px;
@@ -170,3 +172,32 @@ h3{
 #rodape a{
     background: none
 }
+
+/* =========================== Media Queries ===========================*/
+
+/*xs*/
+@media screen and (max-width: 767px){
+    
+    h1{
+        font-size: 60px;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+ }
+
+ /*sd*/
+@media screen and (min-width: 768px){
+    
+    h1{
+        font-size: 70px;
+    }
+ }
+
+/*md*/
+@media screen and (min-width: 992px){
+    
+    h1{
+        font-size: 80px;
+    }
+ }
