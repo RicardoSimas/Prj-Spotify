@@ -7,6 +7,7 @@
 /* =========================== layout ===========================*/
 html,body, .capa{
     height: 100%;
+    overflow: auto;
 }
 body{
     background: url('imagens/capa.png'),
